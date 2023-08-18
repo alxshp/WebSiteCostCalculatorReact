@@ -1,0 +1,38 @@
+body {
+  background-image: url(img/bg.png);
+  background-position: cover;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+p {
+  color: rgb(39, 39, 39);
+}
+
+.calculator {
+  max-width: 400px;
+  margin: 50px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
